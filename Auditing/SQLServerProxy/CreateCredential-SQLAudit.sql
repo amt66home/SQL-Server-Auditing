@@ -1,0 +1,4 @@
+USE [master]
+GO
+CREATE CREDENTIAL [SQLAudit] WITH IDENTITY = N'DCT-AT-DEV\SQLAudit', SECRET = N'Password'
+GO
